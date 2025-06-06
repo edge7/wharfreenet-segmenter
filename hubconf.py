@@ -32,7 +32,7 @@ def _create_wharfree_unet(
         img_height=IMG_HEIGHT,
         img_width=IMG_WIDTH,
         input_channels=INPUT_CHANNELS,
-        num_classes=NUM_CLASSES,  # Pretrained weights will dictate actual num_classes
+        num_classes=NUM_CLASSES,
         seq_len=SEQ_LEN,
         use_custom_attention=USE_CUSTOM_ATTENTION,
         **model_flags,  # This will pass use_lka, use_skip_convlstm, use_temporal_transformer

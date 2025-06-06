@@ -107,9 +107,9 @@ def download_file(url, filename):
 
 
 DATASET = [
+    "https://storage.googleapis.com/wharfreenet_models/cane47.avi",
     "https://storage.googleapis.com/wharfreenet_models/cane6_fatto.avi",
     "https://storage.googleapis.com/wharfreenet_models/cane8Fatto.avi",
-    "https://storage.googleapis.com/wharfreenet_models/cane47.avi",
     "https://storage.googleapis.com/wharfreenet_models/cane48.avi",
     "https://storage.googleapis.com/wharfreenet_models/cane49.avi",
     "https://storage.googleapis.com/wharfreenet_models/cane50.avi",
@@ -120,10 +120,10 @@ DATASET = [
 ]
 if __name__ == "__main__":
     model = torch.hub.load(
-        ".",
+        "edge7/wharfreenet-segmenter",
         "wharfree_unet_convlstm",  # wharfree_unet_standard, wharfree_unet_lka, wharfree_unet_convlstm, wharfree_unet_transformer
         pretrained=True,
-        source="local",
+        source="github",
     )
     model.eval()
     link = DATASET[0]  # Change this to download a different video
