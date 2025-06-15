@@ -62,11 +62,10 @@ import torch
 model_name = "wharfree_unet_convlstm" # Example
 
 model = torch.hub.load(
-    "edge7/wharfreenet-segmenter", # GitHub repository (user/repo_name)
+    "edge7/wharfreenet-segmenter", 
     model_name,
     pretrained=True,
     source="github",
-    # force_reload=True # Uncomment during development if you update the repo frequently
 )
 
 # Ensure the model is in evaluation mode if you're doing inference
