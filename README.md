@@ -2,9 +2,11 @@
 
 This repository contains the segmenter model developed for the work:
 
-**Wharfree-Net: A Hybrid and Interpretable System for Left Atrial Aortic Ratio Estimation in Veterinary Echocardiography**
+**Wharfree-Net: A Hybrid and Interpretable System for Left Atrial Aortic Ratio Estimation in Veterinary Echocardiography**  
+Published in *IEEE* — paper available here: https://ieeexplore.ieee.org/document/11235995
 
 The model aims to segment the aorta and left atrium in echocardiographic videos, specifically from the right parasternal short-axis view at the level of the aortic valve.
+
 
 ## Prerequisites
 
