@@ -1,6 +1,6 @@
 # Wharfree-Net Segmenter
 
-<video src="complete_output_video_N.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/032bdb56-03f4-4c0a-bb28-9faddf44366b
 
 This repository contains the segmenter model developed for the work:
 
